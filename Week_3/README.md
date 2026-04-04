@@ -63,6 +63,8 @@
 - **원인**: OS 버전 차이로 인해 설치 명령어가 정상 실행되지 않음.
 - **해결**: `yum` 대신 `dnf`를 사용하여 `sudo dnf install -y nginx`로 재설치하여 해결.
 
+<img width="1786" height="1702" alt="image" src="https://github.com/user-attachments/assets/63fb088b-1967-45da-aa5e-a1fd1f7cd133" />
+
 ---
 **Last Updated**: 2026-04-04
 **Author**: hasungjun
