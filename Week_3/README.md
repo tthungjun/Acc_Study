@@ -44,6 +44,9 @@
 - **이론**: 클라이언트의 HTTP 요청을 받아 정적 콘텐츠를 제공하는 고성능 웹 서버입니다.
 - **실습**: `dnf` 패키지 매니저로 설치 후 `systemctl`을 통해 활성화하여 "Welcome to nginx!" 페이지를 띄우는 데 성공했습니다.
 
+<img width="1832" height="1790" alt="image" src="https://github.com/user-attachments/assets/2b810fd0-3936-48ab-abed-f2a5361e5b1d" />
+
+
 ---
 
 ## 💡 트러블슈팅 (Troubleshooting)
