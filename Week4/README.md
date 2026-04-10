@@ -27,7 +27,7 @@
 2. **EC2 생성 및 Nginx 설치**: Ubuntu OS 기반 인스턴스를 생성하고, `apt`를 통해 Nginx 웹 서버를 가동했습니다.
 3. **보안 설정**: 보안 그룹(Security Group) 인바운드 규칙에서 SSH(22), HTTP(80) 포트를 개방했습니다.
 
-### Step 2: 리전 간 데이터 복구 (시드니 ➡ 서울)
+### Step 2: 리전 간 데이터 복구 (서울 ➡ 뭄바이)
 1. **이미지화**: 시드니 서버를 AMI 및 스냅샷으로 생성했습니다.
 2. **리전 복사**: 생성된 스냅샷을 서울(`ap-northeast-2`) 리전으로 복사했습니다.
 3. **볼륨 복원**: 서울 리전에서 복사된 스냅샷을 기반으로 **볼륨**을 생성하고, 새 EC2 인스턴스에 **Attach**한 뒤 마운트하여 데이터를 성공적으로 이전했습니다.
@@ -59,5 +59,20 @@
 이번 실습을 통해 클라우드의 핵심 가치인 **가용성**과 **확장성**을 직접 경험했습니다. 특히 리전 간 데이터 이동과 오토스케일링 설정을 통해 장애에 강하고 유연한 인프라 구조를 설계하는 법을 익혔습니다. 접속 과정에서의 시행착오는 인프라 보안과 SSH 프로토콜을 깊이 이해하는 좋은 계기가 되었습니다.
 
 ---
+
+<img width="1710" height="922" alt="image" src="https://github.com/user-attachments/assets/e553678e-ef93-495d-aca9-fb2d8de1485c" />
+
+<img width="1988" height="1428" alt="image" src="https://github.com/user-attachments/assets/475e92db-5312-40a4-bfad-2afd733d5c88" />
+
+<img width="2538" height="596" alt="image" src="https://github.com/user-attachments/assets/7b979470-61a8-48e3-a1f2-f78b327968fe" />
+
+<img width="1970" height="1544" alt="image" src="https://github.com/user-attachments/assets/62f24287-0438-47a6-b5eb-ac67e531cd7d" />
+
+<img width="2482" height="484" alt="image" src="https://github.com/user-attachments/assets/40e6f9db-6976-48b9-a899-0bf805c8b5eb" />
+
+<img width="2528" height="620" alt="image" src="https://github.com/user-attachments/assets/47701d98-02b4-4060-a68e-bbac792c1ee6" />
+
+
+
 **Last Updated**: 2026-04-10  
 **Author**: hasungjun (Kyunghee Univ.)
